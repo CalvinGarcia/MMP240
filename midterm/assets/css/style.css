@@ -1,0 +1,91 @@
+
+
+*{
+	box-sizing: border-box;
+}
+
+#container{
+	max-width: 900px;
+	margin:0px auto;
+}
+
+img{
+	max-width: 900px;
+}
+
+header{
+	background:blue;
+	color:white;
+}
+
+#navigation h1{
+	text-align: right;
+}
+#navigation li: visited{
+	color:white;
+}
+
+
+li{
+list-style-type: none;
+display:inline-block;
+}
+
+#hero {
+
+	background: url(nycimage.jpg);
+	max-width: 900px;
+	height:300px;
+	margin-bottom: :20px;
+
+}
+
+.overlay{
+	background: rgba(0,0,0, 0.5);
+	height:300px;
+}
+
+
+#hero p{
+
+	color:white;
+	font-size:2.5em;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#search{
+	align-content: center;
+	width:relative;
+}
+.para h1{
+	color:blue;
+	text-align: center;
+
+}
+
+.para{
+	display:inline-block;
+	width:32%;
+	float:left;
+	clear:none;
+	margin:5px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	padding-bottom: 20px;
+	max-height: 400px
+	
+}
+
+.para p{
+	padding:20px;
+	color:blue;
+}
+
+footer{
+	width:900px;
+	background: blue;
+	margin:0px auto;
+	margin-top: 20px
+	max-height:20px;
+	display:inline-block;
+}
