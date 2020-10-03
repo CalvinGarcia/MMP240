@@ -7,6 +7,7 @@
 		#navigation h1{
 			text-align: right;
 			display:inline-block;
+			padding-left:20%;
 			max-width: 66.666666%
 
 		}
@@ -16,7 +17,51 @@
 			text-align: right;
 			float:right;
 			display: inline-block;
+			padding-right: 5%;
 			max-width: 33.333333%
+		}
+
+		#navigation{
+			width:100%;
+			display:inline-block;
+		}
+
+		#navigation li{
+			display:inline-block;
+		}
+
+		#search input{
+			width:25%;
+			margin-top:2%;
+			margin-bottom:2%;
+			margin-left:5%;
+			height:30px;
+
+
+		}
+
+		#search button{
+			background: blue;
+			width:4%;
+			height:40px;
+			display: inline;
+			margin-top:2%;
+		}
+
+		#filterButtons button{
+			background:blue;
+			width:6%;
+			height:40px;
+			border-style:solid;
+			border-color:blue;
+			border-radius:5px;
+			margin-bottom: 1%
+
+
+		}
+
+		.listing img{
+			max-width: 25%
 		}
 
 	</style>	
@@ -49,10 +94,10 @@
 
 
 
-
-<input type="text" class="searchTerm" placeholder="You'll Find it Here">
-<button type="submit" class="searchButton"></button>	
-
+<div id= "search">
+		<input type="text" class="searchTerm" placeholder="You'll Find it Here">
+		<button type="submit" class="searchButton"></button>	
+	</div>
 <div id= "filterButtons">
 	<button> Price</button>	
 	<button> Location</button>	
