@@ -4,12 +4,18 @@
 	<link rel ="stylesheet" href = "assets/css/style.css">
 	<style>
 
-				#navigation h1{
+		#navigation h1{
 			text-align: right;
 			display:inline-block;
 			max-width: 66.666666%
 
 		}
+
+		#navigation li{
+			display:inline-block;
+			text-decoration-style: none;
+		}
+
 
 		#craigs{
 			background: blue
@@ -19,11 +25,48 @@
 			max-width: 33.333333%
 		}
 
+		h2{
+			display:inline-block;
+			float:left;
+			clear:none;
+			color:blue;
+		}
+
+		img{
+			max-width: 40%;
+			display: inline-block;
+			float:left;
+			clear:none;
+			margin-left:5%;
+			margin-right:2%;
+		}
+
+		#description p{
+			display:inline-block;
+			color:blue;
+		}
+
+		#contactButtons button{
+			background:#464aee;
+			color:white;
+			border-style: solid;
+			border-color: #464aee;
+			border-radius:5px;
+			padding:10px;
+			margin-right:1%;
+		}
+
+		#finePrint p{
+			float:left;
+			clear:none;
+			color:#464aee;
+			
+		}
 
 
 
-	</style>	
-</head>		
+		</style>	
+	</head>		
 
 <body>
 
@@ -48,8 +91,72 @@
 
 
 <div id = "container">	
+
+	<div id= "search">
+		<input type="text" class="searchTerm" placeholder="Search">
+		<button type="submit" class="searchButton"></button>	
+			</div>
 	
-	<h2> Beautiful 1 bed, 1 bath, 666 Square Feet Yonkers </h2>
+	<div id= "filterButtons">
+	<p>	
+			<button> Price  </button>	
+			<button> Location </button>	
+			<button> Filters </button>	
+				</p>
+		</div>	
+
+
+		<img src="assets/images/apartment1.jpg">
+	
+				<div id= "description">
+					
+
+					<h2> Beautiful 1 bed, 1 bath, 666 Square Feet Yonkers </h2>	
+
+
+					<p>
+					Location: Yonkers, NY
+					<br>
+					20 Water Grant St - Yonkers, NY 10701
+					<br>
+					More Information:
+					<br>
+					(914) 750-4858
+					<br>
+					Posted : 13 days ago
+					<br>
+						</p>
+							</div>
+
+
+	<div id = "contactButtons">
+	
+	<button> Contact </button>		
+	<button> Favorite </button>	
+	<button> Flag as Inappropriate </button>	
+	<button> Mark Not Interested </button>	
+
+		</div>				
+
+
+<hr>
+
+<div id="finePrint"> 
+	<p>
+
+		Brokers Fee: Yes
+		<br>
+		Pets: Yes
+		<br>
+		Utilities Included: No
+		<br>
+		Rooftop Access: No
+		<br>
+		Smoking Allowed: No
+
+		</p>
+
+	</div>
 
 	<div id = "footer">	
 		<footer>
