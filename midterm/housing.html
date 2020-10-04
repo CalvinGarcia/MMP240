@@ -50,6 +50,8 @@
 
 		#filterButtons button{
 			background:blue;
+			color:white;
+			font-weight: bold;
 			width:6%;
 			height:40px;
 			border-style:solid;
@@ -58,10 +60,41 @@
 			margin-bottom: 1%
 
 
+
 		}
 
-		.listing img{
-			max-width: 25%
+		.listing img{ 
+			max-width: 25%;
+			float:left;
+			clear:none;
+			display:inline-block;
+			margin-right:3%;
+			margin-left:6%;
+			margin-bottom: 2%;
+
+
+		
+		}
+
+		#listHead a{
+			font-size:1.5em;
+			text-decoration: none;
+			font-style: bold;
+		}
+
+		.listing p{
+			max-width: 75%;
+			margin-left: 3%;
+			color:blue;
+		}
+		
+		hr{
+			width:100%;
+			display:block;
+			clear:both;
+
+
+
 		}
 
 	</style>	
@@ -107,12 +140,12 @@
 
 <div id= "listings">
 
-	<div class= "listing1">
+	<div class= "listing l1">
 		<img src="assets/images/apartment1.jpg">
 			<div id="listHead">
-			
+	
 		<a href ="listing.html">Beautiful 1 bed, 1 bath, 666 Square Feet Yonkers</a>
-			
+	
 			</div>
 				
 				<div id= "listBody">
@@ -137,8 +170,10 @@
 		</div>
 	</div>
 
-<div class= "listing2">
-		<img src="assets/images/apartment2.jpg">
+	<hr>
+
+<div class= "listing l2">
+		<img src="assets/images/apartment1.jpg">
 			<div id="listHead">
 			
 			<a href ="listing1.html">Beautiful 1 bed, 1 bath, 666 Square Feet Yonkers</a>
@@ -164,7 +199,9 @@
 
 		</div>
 
-<div class= "listing3">
+	<hr>	
+
+<div class= "listing l3">
 		<img src="assets/images/apartment3.jpg">
 			<div id="listHead">
 			
@@ -192,7 +229,7 @@
 
 		</div>
 
-
+<hr>
 
 
 
