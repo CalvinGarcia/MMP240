@@ -1,6 +1,7 @@
 
 
 *{
+	max-width: 1280px;
 	box-sizing: border-box;
 	font-family: 'arial';
 }
@@ -10,13 +11,69 @@
 	margin:0px auto;
 }
 
+		#navigation img{
+			display:inline-block;
+			float:right;
+			clear:none;
+			padding-right: 2.5%;
 
+			
+
+		}
+
+
+		#navigation{
+			background: #464aee;
+			padding:1%;
+			margin-bottom: 0%;
+		}
+		
+
+
+		#navigation h1{
+			display:inline-block;
+			float:right;
+			color:#ffffff;
+			padding-right: 1%;
+		}
+
+		
+
+		#navigation li{
+			display:inline-block;
+
+		}
+
+		#navigation ul{
+			display:inline-block;
+
+
+
+		}
+
+
+
+		#housing{
+			margin-right: 60%
+		}
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 header{
 	background:#464aee;
 	color:white;
 }
-
+*/
 #navigation a:active{
 	color:white;
 }
@@ -26,10 +83,6 @@ header{
 }
 
 
-#naviagtion li{
-list-style-type: none;
-display:inline-block;
-}
 
 #footer li{
 	list-style: none;
