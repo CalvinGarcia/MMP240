@@ -56,9 +56,6 @@
 
 		}
 
-		#navigation a: active{
-			color:white;
-		}
 
 
 		#housing{
@@ -87,6 +84,10 @@ header{
 }
 
 #navigation a:visited{
+	color:white;
+}
+
+#navigation a:link{
 	color:white;
 }
 
