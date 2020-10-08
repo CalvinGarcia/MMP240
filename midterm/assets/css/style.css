@@ -11,6 +11,11 @@
 	margin:0px auto;
 }
 
+
+		li: hover{
+			background-color:red;
+		}
+
 		#navigation img{
 			display:inline-block;
 			float:right;
@@ -51,6 +56,9 @@
 
 		}
 
+		#navigation a: active{
+			color:white;
+		}
 
 
 		#housing{
