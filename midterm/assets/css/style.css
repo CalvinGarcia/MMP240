@@ -12,13 +12,6 @@
 }
 		
 
-		#navigation li: hover{
-			background:#464aff ;
-		}
-
-		li: hover{
-			background-color:red;
-		}
 
 		#navigation img{
 			display:inline-block;
@@ -51,10 +44,19 @@
 		#navigation li{
 			display:inline-block;
 			margin-right: 10px;
+			background:#464aee;
+			text-decoration-line:  none;
+			
 
 
 
 		}
+
+
+		#navigation li: hover{
+			background:red;
+		}
+
 
 		#navigation ul{
 			display:inline-block;
