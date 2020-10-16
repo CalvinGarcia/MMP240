@@ -10,7 +10,11 @@
 	max-width: 100%;
 	margin:0px auto;
 }
+		
 
+		#navigation li: hover{
+			background:#464aff ;
+		}
 
 		li: hover{
 			background-color:red;
@@ -46,6 +50,9 @@
 
 		#navigation li{
 			display:inline-block;
+			margin-right: 10px;
+
+
 
 		}
 
