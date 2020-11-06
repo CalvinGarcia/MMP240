@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+	<head>
+		
+		<title> Assignment 5 </title>
+
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		
+		<style>
+
+
+			*{
+				box-sizing: border-box;
+				margin:0px;
+
+
+			}
+
+			@import url(<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">)
+
+);
+
+			#container{
+				max-width: 960px;
+				margin:0px auto;
+				display: flex;
+				flex-flow: wrap;
+			 	font-family: 'Raleway', sans-serif;
+
+			
+
+			}
+
+
+			#hero p{
+			
+			position:relative;	
+			left:700px;
+			font-size: 2em;
+			color:white;
+
+			}
+
+			#hero{
+				height:400px;
+				width:100%;
+				margin:0px auto;
+				display:flex;
+				align-items: center;
+				background: url("assets/images/batman.jpg");
+
+			}
+
+			#hero a{
+				background: #ddcc00;
+				color:black;
+				padding:10px;
+				width:100px;
+				text-align: center;
+				border-radius:10px;
+				text-decoration-line: none;
+				position:relative;
+				left:550px;
+				top:50px;
+			}
+
+			.wrap{
+				max-width: 100%
+			}
+
+			.wrap p{
+				font-family: 
+			}
+
+			.wrap .w1{
+				display:flex;
+				justify-content: space-around;
+				background: #00ccdd;
+				padding:30px;
+			}
+
+			.w1 img{
+				width:35%;
+			}
+
+			.w1 p{
+				width:50%;
+			}
+
+			.wrap h1 {
+				flex-direction: column;
+			}
+
+
+			.wrap .w2{
+				display: flex;
+				justify-content: space-around;
+				flex-direction: row-reverse;
+				padding:30px;
+				background: #ddcc00;
+			}
+
+			.w2 img{
+				width:30%;
+
+			}
+
+			.w2 p{
+				width:65%;
+			}
+
+			.w1 a{
+				background: #ddcc00;;
+				padding:8px; 
+				border:solid;
+				border-color:  #ddcc00;;
+				border-radius: 5px;
+				text-decoration-line: none;
+				color:black;
+
+			}
+
+			.w1 a:visited{
+				color:black;
+
+			}
+
+			.w1 a:hover{
+				background:black;
+				border-color: black;
+				color:#ddcc00;
+			}
+
+			.w2 a{
+				background:#00ccdd;
+				padding:8px; 
+				border:solid;
+				border-color: #00ccdd;
+				border-radius: 5px;
+				text-decoration-line: none;
+				color:black;
+			}
+
+			.w2 a:hover{
+				background:black;
+				border-color: black;
+				color:#00ccdd;
+			}
+
+			.w2 a:visited {
+				color:black;
+
+			}
+
+			.w2 a:active{
+
+			}
+
+			@media screen and (max-width: 600px){
+
+				.wrap{
+					
+					display: flex;
+					flex-flow: column-wrap;
+				}
+
+				.w1{
+					width:100;
+					display:flex;
+					flex-direction: column;
+					flex-flow: column-wrap;
+				}
+
+
+				.w1 img{
+					width:100%;
+					flex-flow: column;
+				}
+
+				.w1 p{
+					width:100%;
+					flex-flow: column-wrap;
+				}
+
+				.w2{
+					width:100%;
+					display:flex;
+					flex-direction: column-reverse;
+					flex-flow:column-wrap;
+					flex-wrap:wrap-reverse;
+
+				}
+
+				.w2 img{
+					width:100%;
+					flex-flow: column;
+					margin-top:30px;
+				}
+
+				.w2 p{
+					width:100%;
+					flex-direction: column-reverse;
+
+
+				}
+
+				.w2 a{
+					margin-bottom:30px;
+				}
+			}
+
+
+
+
+		</style>
+
+	</head>	
+
+
+<body>
+	<div id = "container">
+
+<!-- 	<div id = "hero">
+		<p> A Hero is Born </p>
+		<a href = "#"> Enter </a>
+		</div>	
+ -->
+
+<div class = "wrap">
+	<div class = "w1"> 
+	<img src = "assets/images/spider-man.jpg">	
+
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices vestibulum convallis. Nam dolor enim, rutrum id ipsum a, tincidunt malesuada magna. Nulla lobortis est vitae rhoncus pellentesque. Cras dolor mi, gravida vulputate magna vitae, laoreet sollicitudin magna. Suspendisse iaculis sem ligula, cursus ultrices magna ornare non. Cras rhoncus felis ut enim efficitur dignissim. Etiam ac ultricies erat. Nullam ultricies, libero at commodo pellentesque, dolor nisl auctor justo, et tincidunt enim augue eget odio. Vivamus vestibulum odio eu pharetra vehicula. Vivamus luctus et lorem vitae mattis.
+
+			<br>
+			<br>
+			<br>
+			<a href = "#"> A Link Here </a>
+		</p>
+
+		
+	</div>
+</div>
+
+<div class = "wrap">
+	<div class = "w2"> 
+	<img src = "assets/images/spider-man.jpg">		
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices vestibulum convallis. Nam dolor enim, rutrum id ipsum a, tincidunt malesuada magna. Nulla lobortis est vitae rhoncus pellentesque. Cras dolor mi, gravida vulputate magna vitae, laoreet sollicitudin magna. Suspendisse iaculis sem ligula, cursus ultrices magna ornare non. Cras rhoncus felis ut enim efficitur dignissim. Etiam ac ultricies erat. Nullam ultricies, libero at commodo pellentesque, dolor nisl auctor justo, et tincidunt enim augue eget odio. Vivamus vestibulum odio eu pharetra vehicula. Vivamus luctus et lorem vitae mattis.
+
+		<br>
+		<br>
+		<br>
+
+		<a href = "#"> A Link Here </a>
+
+		</p>	
+
+
+		
+
+	</div>	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+</body>
+</html>
