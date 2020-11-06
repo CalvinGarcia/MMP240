@@ -32,27 +32,55 @@
 
 			}
 
+			@keyframes batman{
+
+				0%{
+
+					background:#000000;
+
+				}
+
+				25%{
+					background:#000000;
+				}
+
+
+				50%{
+					background: url("assets/images/batman.jpg");
+				}
+
+				100%{
+
+					background:url("assets/images/batman.jpg");
+
+				}
+
+			}
+
 
 			#hero p{
 			
-			position:relative;	
-			left:700px;
+		
 			font-size: 2em;
 			color:white;
 
 			}
 
 			#hero{
+				animation:4s batman;
 				height:400px;
 				width:100%;
 				margin:0px auto;
 				display:flex;
+				flex-direction: column;
 				align-items: center;
+				justify-content: center;
 				background: url("assets/images/batman.jpg");
 
 			}
 
 			#hero a{
+		
 				background: #ddcc00;
 				color:black;
 				padding:10px;
@@ -60,9 +88,10 @@
 				text-align: center;
 				border-radius:10px;
 				text-decoration-line: none;
-				position:relative;
+
+			/*	position:relative;
 				left:550px;
-				top:50px;
+				top:50px;*/
 			}
 
 			.wrap{
@@ -156,31 +185,39 @@
 			.w2 a:active{
 
 			}
+/*
+			Responsive Design Begins Here*/
 
 			@media screen and (max-width: 600px){
 
 				#hero{
 
+					display:flex;
+					justify-content: center;
 					background: url("assets/images/batman.jpg");
-					width:100%;
-					position:relative;
+					flex-direction: column;
+					background-size: cover;
+				/*	width:100%;*/
+					width: calc(100vw);
+					/*position:relative;*/
 
 				}
 
 				#hero p{
 
 					display:flex;
-					position: relative;
-					left:32%;
+					justify-content: center;
+				/*	position: relative;
+					left:32%;*/
 					text-align: :center;					
 				}
 
 				#hero a{
 
 					display: flex;
-					position:relative;
+					vertical-align: center;		
 					text-align: center;
-					left:25px;
+					
 				}
 
 				.wrap{
@@ -253,6 +290,11 @@
 		text-align: center;
 		width:100%;
 		padding:15px;
+		display: inline-block;
+	}
+
+	footer p{
+		display: inline-block;
 	}		
 	
 
