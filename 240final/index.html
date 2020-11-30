@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Final Project </title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Teko&display=swap" rel="stylesheet">
+		<meta charset = UTF-8> 
+
+		<style>
+	*{
+		box-sizing: border-box;
+		margin: 0px;
+	/*	font-family: 'Teko', sans-serif;*/
+	}
+
+	header{
+		position:relative;
+		background:#28D7EB;
+		padding:30px;
+	}
+
+	nav{
+		position:absolute;
+
+		right:20px;
+		top:40px;
+
+
+	}
+
+	header h1{
+
+		font-family: 'Teko', sans-serif;
+		font-size:3em;
+	
+	}
+
+	nav li{
+		display: inline-block;
+		background:#12626B;
+		font-size:24pt;
+		padding:10px;
+		border-radius:5px;
+		font-family: 'Teko', sans-serif;
+
+	}
+
+	nav a{
+		text-decoration: none;
+		color:white;
+	}
+
+	nav a:visited{
+		color:white;
+	}
+
+	nav a:hover{
+		color: red;
+	}
+
+/*	nav a:active*/
+
+	footer{
+		background: black;
+		padding:20px;
+	}
+
+	footer p{
+		font-family: 'Oxygen', sans-serif;
+		color:white;
+		text-align: center;
+	}
+
+
+	#container{
+		display:flex;
+		flex-direction: column;
+		margin:0px auto;
+		width:1280px;
+	}
+
+	#hero{
+		background:url("mario.jpg");
+		height:400px;
+	}
+
+	#overlay{
+		background: rgba( 0, 0, 0, 0.6 );
+		height:400px;
+	}
+
+	#herotext {
+		height:400px;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+
+	
+
+	}
+
+	#herotext p{
+		color:white;
+		font-size: 4em;
+		font-family: 'Teko', sans-serif;
+
+	
+
+	}
+	
+
+
+	.section{
+		display:flex;
+	}
+
+	.section p{
+		font-family: 'Oxygen', sans-serif;
+	}
+
+	.section h1{
+		font-family: 'Teko', sans-serif;
+	}
+
+	.sect1{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background: #28D7EB;
+		padding:20px;
+
+	}	
+
+	.sect1 img{
+		width:25%;
+	}
+
+
+
+	.sect2{
+		display:flex;
+		flex-direction:row;
+		background:#12626B;
+		padding:20px;
+	}
+
+	.sect2 img{
+		width:25%;
+	}
+
+
+
+	.sect2copy{
+		display:flex;
+		flex-direction:column;
+		padding:30px;
+		color:white;
+	}
+
+	.sect3{
+		background: #28D7EB;
+		padding:150px;
+
+	}
+
+	.sect3 h1{
+		padding:10px;
+	
+	}
+
+	.sect4{
+		background:#12626B;
+		display:flex;
+		flex-direction: row-reverse;
+		padding:20px;
+	}
+
+	.sect4 img{
+		width:25%;
+	}
+
+	.sect4copy{
+		color:white;
+		padding:30px;
+	}
+
+/*	Responsive Design Begins Here*/
+
+		@media screen and (max-width: 600px){
+
+		#container{
+			display:flex;
+			flex-direction: column;
+			width:calc(100vw);
+		}
+
+		header{
+			width:100%;	
+			display:flex;
+			flex-direction: column;
+
+
+
+		}
+
+		header h1{
+			text-align: center;
+			margin-left:20px;
+		}
+
+
+
+		nav{
+			display: flex;
+			flex-direction: column;
+			position: static;
+
+		}
+
+
+		nav ul{
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		nav li{
+			margin:5px;
+			text-align: center;
+		}
+
+/*		#hero{
+			background:url("mario.jpg");
+			width:(100vw);
+		}*/
+
+		.section{
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		.sect1{
+			display:flex;
+			flex-direction: column;
+
+		}
+
+		.sect1 img{
+			width:100%;
+			margin:10px;
+		}
+
+		.sect2{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.sect2 img{
+			width:100%;
+			margin-left:10px;
+		}
+
+		.sect4{
+			display:flex;
+			flex-direction: column-reverse;
+
+		}
+
+		.sect4 img{
+			width:100%;
+			margin-left:10px;
+		}
+		
+		</style>
+	</head>	
+
+<body>
+
+	<div id = "container">
+
+		<div id = menu>
+			<header>
+				<h1> Final Project </h1> 
+
+				<nav>
+					<ul>
+						
+						<li> <a href = "contact.html"> Contact </a> </li>
+						<li> <a href = "#"> About </a> </li>
+		<!-- 				<li> <a href = "test.html"> Test </a> </li> -->
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+	<div id= "hero"> 
+		<div id = "overlay">
+			<div id= "herotext">
+				<p> 
+					I Need A Hero 
+				</p>
+			</div>
+			</div>
+		</div>	
+
+		<div class ="section"> 
+			<div class = "sect1">
+
+
+			
+				<img src = "waiting.png"> 
+				<img src = "waiting.png">
+				<img src = "waiting.png">
+
+			</div>
+		</div>
+
+		<div class ="section"> 
+			<div class = "sect2">
+
+				<img src = "waiting.png"> 
+
+				<div class = "sect2copy">
+					<h1> Heading Text Here </h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac dui eros. Cras lacinia, nisl sed consectetur malesuada, nulla leo venenatis ipsum, quis ultricies ante magna id dui. Quisque sit amet dolor efficitur, molestie dolor et, elementum erat. In ultrices justo sed orci condimentum fringilla. 
+						</p>	
+					</div>		
+			</div>
+		</div>		
+
+		<div class ="section"> 
+			<div class = "sect3">
+
+				<h1> Heading Text Here </h1>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac dui eros. Cras lacinia, nisl sed consectetur malesuada, nulla leo venenatis ipsum, quis ultricies ante magna id dui. Quisque sit amet dolor efficitur, molestie dolor et, elementum erat. In ultrices justo sed orci condimentum fringilla. Nulla ullamcorper suscipit lacinia. Sed sit amet ultrices nibh. Sed pharetra sed ligula in interdum. Duis eu scelerisque quam.
+				</p>
+
+
+			</div>
+		</div>		
+
+		<div class ="section"> 
+			<div class = "sect4">
+						<img src = "waiting.png"> 
+				
+					
+					<div class = "sect4copy">		
+						<h1> Heading Text Here </h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac dui eros. Cras lacinia, nisl sed consectetur malesuada, nulla leo venenatis ipsum, quis ultricies ante magna id dui. Quisque sit amet dolor efficitur, molestie dolor et, elementum erat. In ultrices justo sed orci condimentum fringilla. 
+							</p>	
+						</div>		
+
+			</div>
+		</div>		
+
+
+
+
+
+<footer>
+	<p>
+		Created with love by Sasquatch Media ©
+	</p>
+</footer>
+
+
+	</div>
+</body>
+</html>

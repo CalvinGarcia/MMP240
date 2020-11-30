@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+	<title> Contact </title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Teko&display=swap" rel="stylesheet">
+		<meta charset = UTF-8> 
+
+		<style>
+
+	*{
+		box-sizing: border-box;
+		margin: 0px;
+	/*	font-family: 'Teko', sans-serif;*/
+/*		font-family: 'Oxygen', sans-serif;*/
+	}
+
+	#container{
+		width:1280px;
+		margin:0px auto;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	h1{
+		font-family: 'Teko', sans-serif;
+	}
+
+	p{
+		font-family: 'Oxygen', sans-serif;
+	}
+
+	header{
+		position:relative;
+		background:#28D7EB;
+		padding:30px;
+	}
+
+	nav{
+		position:absolute;
+		right:20px;
+		top:40px;
+
+
+	}
+
+	header h1{
+
+		font-family: 'Teko', sans-serif;
+		font-size:3em;
+	
+	}
+
+	nav li{
+		display: inline-block;
+		background:#12626B;
+		font-size:24pt;
+		padding:10px;
+		border-radius:5px;
+		font-family: 'Teko', sans-serif;
+
+	}
+
+	nav a{
+		text-decoration: none;
+		color:white;
+	}
+
+	nav a:visited{
+		color:white;
+	}
+
+	nav a:hover{
+		color: red;
+	}
+
+	nav a:active
+
+/*
+	.stuff{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-around;
+		background: red;
+		padding:40px;
+
+	}
+
+	.stuff img{
+		width:30%;
+	}
+
+	.stuff p{
+		width:50%;
+	}*/
+
+
+
+	.stuff{
+		display:flex;
+
+	}
+
+	.stuffjr{
+		background: #12626B;
+		display: flex;
+		flex-direction: row;
+		padding:40px;
+	}
+
+	.stuff3{
+		display: flex;
+		flex-direction: column;	
+	} 
+
+	.stuff3 {
+		padding-left:40px;
+	}
+
+	.stuff img{
+		width:25%;
+
+	}
+
+	.stuff h1{
+		color:white;
+	}
+
+	.stuff p{
+		width:75%;
+		color:white;
+
+	}
+
+		footer{
+		background: black;
+		padding:20px;
+	}
+
+	footer p{
+		font-family: 'Oxygen', sans-serif;
+		color:white;
+		text-align: center;
+	}
+
+/*	Responsive Design Begins */
+
+	@media screen and (max-width: 600px){
+
+		#container{
+			display:flex;
+			flex-direction: column;
+			width:calc(100vw);
+		}
+
+		header{
+			width:100%;	
+			display:flex;
+			flex-direction: column;
+
+
+
+		}
+
+		header h1{
+			text-align: center;
+			margin-left:20px;
+		}
+
+
+
+		nav{
+			display: flex;
+			flex-direction: column;
+			position: static;
+
+		}
+
+
+		nav ul{
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		nav li{
+			margin:5px;
+			text-align: center;
+		}
+
+		.stuff{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.stuffjr{
+			display: flex;
+			flex-direction: column;
+
+
+		}
+
+		.stuffjr img{
+			width:100%;
+		}
+
+
+	}
+
+
+	</style>
+
+</head>
+<body>
+
+
+
+	<div id = "container">
+			<div id = "menu">
+				<header>
+					<h1> Final Project </h1> 
+
+					<nav>
+						<ul>
+							<li> <a href = "index.html"> Home </a></li>
+							<li> <a href = "#"> About </a> </li>
+	<!-- 						<li> <a href = "#"> Contact </a> </li> -->
+	<!-- 						<li> <a href = "test.html"> Test </a> </li> -->
+						</ul>
+					</nav>
+				</header>
+			</div>
+		
+
+		<div class = "stuff">
+			<div class = "stuffjr">
+
+			<img src = "waiting.png">
+
+			<div class = "stuff3">
+				<h1> Hope in a Heading </h1>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at orci sed diam lobortis commodo. Cras id semper velit. Donec erat sem, venenatis vitae odio eget, mattis dictum est. Suspendisse at enim quis velit semper maximus. Maecenas vehicula vitae ex non sollicitudin. Praesent luctus dui dui, in lobortis quam faucibus ut. Mauris quis molestie neque. Fusce eget dolor tellus. Maecenas aliquet tortor vel elit iaculis faucibus. In rhoncus bibendum urna, nec pellentesque turpis. Nulla venenatis libero at luctus aliquam.
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+	<footer>
+			<p>
+				Created with love by Sasquatch Media ©
+			</p>
+		</footer>	
+
+
+
+</div>
+
+	</body>
+</html>
